@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>IGI</title>
+</head>
+<body>
+    <div><img src="~/images/logo1.png" /></div>
+
+    <div>
+        Проверяющие
+        <table style="width:50%;">
+            <tr>
+                <td>Проверяющий1</td>
+                <td>Предприятие1</td>
+            </tr>
+            <tr>
+                <td>Проверяющий2</td>
+                <td>Предприятие2</td>
+            </tr>
+            <tr>
+                <td>Проверяющий3</td>
+                <td>Предприятие3</td>
+            </tr>
+        </table>
+    </div>
+    <p>
+        <fieldset>
+            <legend>Контактная информация</legend>
+            <br /> <label>Имя<input type="text" required placeholder="Имя проверяющего"></label>
+            <br /><label>Предприятие<input type="text" required placeholder="Название предприятия"></label>
+            <br />
+            <select name="country">
+                <option>Выберите вид нарушения</option>
+                <option value="ТБ">Нарушение ТБ</option>
+                <option value="ПБ">Нарушение ПБ</option>
+                <option value="Неуплата">Неуплата налогов</option>
+                <option value="труда">Нарушение условий труда</option>
+            </select>
+            <br>  <button type="submit">Отправить</button>
+        </fieldset>
+    </p>
+</body>
+</html>
